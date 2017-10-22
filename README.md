@@ -1,5 +1,5 @@
 #### SDES 
 
-* SDESimplementation class will have functions implementations to help do the encryption and decryption. 
-* SDES class will have the implementation for S-DES algorithm. 
+* This project will have the implementation of SDES and TripleSDES algorithms. 
+* We are also implementing algorithm to crack the SDES and TripleSDES using brute-force algorithm on English words. 
     
