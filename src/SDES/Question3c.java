@@ -1,12 +1,7 @@
 package SDES;
-<<<<<<< HEAD
 import java.io.BufferedWriter;
-
 import TripleSDES.TripleSDES;
 
-=======
-import TripleSDES.TripleSDES;
->>>>>>> master
 /**
  * Created by rohangoel on 10/26/17.
  */

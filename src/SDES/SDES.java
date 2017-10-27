@@ -1,9 +1,5 @@
 package SDES;
 
-<<<<<<< HEAD
-
-=======
->>>>>>> master
 import java.io.UnsupportedEncodingException;
 import java.util.Arrays;
 
@@ -72,11 +68,8 @@ public class SDES {
 	// Permutations Implementation
 	public byte[] executePermutation(byte[] P, byte[] input) {
 		int length = P.length;
-<<<<<<< HEAD
 		byte[] output=new byte[length]; 
-=======
-		byte[] output=new byte[length];
->>>>>>> master
+
 		for(int i=0;i<length;i++)
 			output[i]=input[(P[i]-1)];
 		return output;
@@ -193,19 +186,6 @@ public class SDES {
 		byte[] R = Arrays.copyOfRange(input, input.length/2 , input.length);
 		return concatArrays(R,L);
 	}
-<<<<<<< HEAD
-
-	// Final Permutation Implementation.
-	public byte[] finalPermutation(byte[] input) {
-		return executePermutation(FP, input);
-	}
-
-	public static void main(String[] args) {
-
-
-	}
-}
-=======
 
 	// Final Permutation Implementation.
 	public byte[] finalPermutation(byte[] input) {
@@ -216,4 +196,3 @@ public class SDES {
 
 	}
 }
->>>>>>> master
