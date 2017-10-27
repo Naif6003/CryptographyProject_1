@@ -1,10 +1,7 @@
 package SDES;
-import TripleSDES.TripleSDES;
-
 import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+
+import TripleSDES.TripleSDES;
 
 /**
  * Created by rohangoel on 10/26/17.
