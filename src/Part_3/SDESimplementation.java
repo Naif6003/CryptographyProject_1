@@ -1,4 +1,7 @@
-package SDES;
+package Part_3;
+
+
+import SDES.SDES;
 
 public class SDESimplementation {
 
